@@ -11,7 +11,7 @@ from zoneinfo import ZoneInfo
 # 設定
 # ============================================================
 
-TOKEN = ""
+TOKEN = os.getenv("DISCORD_TOKEN")
 
 # 作業用VC
 WORK_VOICE_CHANNEL_ID = 1554820775083511928
